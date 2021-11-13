@@ -1,0 +1,1173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<SimBase.Document Type="ObjectFile" version="5,2">
+    <Descr>8 player Multiplayer map with working example of AI that will attack. Located at Area 51, Mini Sandbox.</Descr>
+    <Title>Hacon Magnus Area 51</Title>
+    <WorldBase.Flight>
+        <SimContain.UserOwnship InstanceId="{1CCF6D89-BA36-445F-B5C8-47571ABC0773}">
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <Loadouts>
+                <Loadout LoadoutTitle="2x AIM-120, 2x AIM-9, 2x AGM-88, 2x Wing Tank" LoadoutType="WEAPON">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            Quantity="1"
+                            PylonTitle="pylon_medium_underwing" />
+                    <Attachment
+                            StationIndex="2"
+                            ObjectTitle="AGM-88_HARM"
+                            Quantity="1"
+                            PylonTitle="pylon_heavy_underwing" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment
+                            StationIndex="6"
+                            ObjectTitle="AGM-88_HARM"
+                            Quantity="1"
+                            PylonTitle="pylon_heavy_underwing" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            Quantity="1"
+                            PylonTitle="pylon_medium_underwing" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutTitle="Right Internal Mount" LoadoutType="GUN">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutTitle="Basic Countermeasures" LoadoutType="COUNTERMEASURE">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimContain.UserOwnship>
+        <SimContain.UserAvatar InstanceId="{508FDC98-BF36-4C0F-B22D-27045DF1A0CF}">
+        </SimContain.UserAvatar>
+        <SceneryObjects.LibraryObject InstanceId="{A22A87C4-A5A4-4351-8946-23FA4F2F98B1}">
+            <Descr>Scenery4</Descr>
+            <MDLGuid>{66363C3D-7172-453F-AD47-4ABDC6560E22}</MDLGuid>
+            <WorldPosition>N37° 14' 50.123410",W115° 48' 8.982671",+000000.00</WorldPosition>
+            <Orientation>0.000000,359.999999,244.499999</Orientation>
+            <Scale>1.000000</Scale>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <NoAutogenSuppression>True</NoAutogenSuppression>
+            <NoCrash>False</NoCrash>
+        </SceneryObjects.LibraryObject>
+        <SceneryObjects.LibraryObject InstanceId="{07C7DFCE-E0A3-484F-97DC-E9BA28342428}">
+            <Descr>Scenery4 - Copy 1</Descr>
+            <MDLGuid>{66363C3D-7172-453F-AD47-4ABDC6560E22}</MDLGuid>
+            <WorldPosition>N37° 14' 50.254499",W115° 48' 8.934264",+000000.00</WorldPosition>
+            <Orientation>0.000000,359.999999,335.999998</Orientation>
+            <Scale>1.000000</Scale>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <NoAutogenSuppression>True</NoAutogenSuppression>
+            <NoCrash>False</NoCrash>
+        </SceneryObjects.LibraryObject>
+        <SceneryObjects.LibraryObject InstanceId="{5F3CD5C5-A91E-4102-BF0B-F8CFEF3570AF}">
+            <Descr>Griz</Descr>
+            <MDLGuid>{25CCEB88-E0B3-4ECB-9289-EA9F548C1B8F}</MDLGuid>
+            <WorldPosition>N37° 12' 24.485697",W115° 56' 58.600457",+000000.00</WorldPosition>
+            <Orientation>0.000000,0.000000,198.523496</Orientation>
+            <Scale>1.000000</Scale>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <ImageComplexity>Normal</ImageComplexity>
+            <NoAutogenSuppression>True</NoAutogenSuppression>
+            <NoCrash>False</NoCrash>
+        </SceneryObjects.LibraryObject>
+        <LivingWorld.MobileSceneryObject InstanceId="{4E1DC3B0-87BA-46A4-BF4E-BCF7602F4275}">
+            <Descr>Paul&apos;s House</Descr>
+            <ModelID>{931535B2-BBD9-409F-99C0-39634D4405F3}</ModelID>
+            <Orientation>0.000000,0.000000,108.437447</Orientation>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <NoAutogenSuppression>True</NoAutogenSuppression>
+            <NoCrash>True</NoCrash>
+            <WorldPosition>N37° 14' 49.983644",W115° 48' 9.032043",+000000.00</WorldPosition>
+            <IsOnGround>True</IsOnGround>
+            <Scale>1.000000</Scale>
+            <MSOWaypointController>
+                <AccelKnots>10.000000</AccelKnots>
+                <GroundCruiseSpeed>35.000000</GroundCruiseSpeed>
+                <GroundTurnSpeed>10.000000</GroundTurnSpeed>
+                <GroundTurnTime>3.500000</GroundTurnTime>
+            </MSOWaypointController>
+        </LivingWorld.MobileSceneryObject>
+        <LivingWorld.MobileSceneryObject InstanceId="{A87FCD89-03B3-4F81-9713-5D3E78D7E2C6}">
+            <Descr>MobileScenery3</Descr>
+            <ModelID>{8E877772-14CB-4CAE-8653-8E6921F915C9}</ModelID>
+            <Orientation>0.000000,0.000000,83.282745</Orientation>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <NoAutogenSuppression>True</NoAutogenSuppression>
+            <NoCrash>False</NoCrash>
+            <WorldPosition>N37° 14' 50.036446",W115° 48' 8.747511",+000000.00</WorldPosition>
+            <IsOnGround>True</IsOnGround>
+            <Scale>1.000000</Scale>
+            <MSOWaypointController>
+                <AccelKnots>10.000000</AccelKnots>
+                <GroundCruiseSpeed>35.000000</GroundCruiseSpeed>
+                <GroundTurnSpeed>10.000000</GroundTurnSpeed>
+                <GroundTurnTime>3.500000</GroundTurnTime>
+            </MSOWaypointController>
+        </LivingWorld.MobileSceneryObject>
+        <SimContain.Container InstanceId="{7FFC8E92-3C60-4EE4-AE4C-EA3B1A19762B}">
+            <Descr>Black Hawk</Descr>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <ContainerID>0</ContainerID>
+            <IsOnGround>True</IsOnGround>
+            <WorldPosition>N37° 14' 52.463646",W115° 48' 44.031745",+000005.00</WorldPosition>
+            <Orientation>0.000000,0.000000,67.787481</Orientation>
+            <ContainerTitle>Sikorsky UH-60M Battlehawk</ContainerTitle>
+            <IdentificationNumber>14</IdentificationNumber>
+            <AIType>Helicopter</AIType>
+            <AircraftAI>
+                <GroundCruiseSpeed>35.000000</GroundCruiseSpeed>
+                <GroundTurnSpeed>10.000000</GroundTurnSpeed>
+                <GroundTurnTime>3.500000</GroundTurnTime>
+                <YieldToUser>True</YieldToUser>
+                <CurrentWaypoint>0</CurrentWaypoint>
+            </AircraftAI>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="8x Hellfires">
+                    <Attachment
+                            StationIndex="0"
+                            ObjectTitle="AGM-114R_Hellfire"
+                            PylonTitle="m299_missile_rack_dark"
+                            Quantity="4" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AGM-114R_Hellfire"
+                            PylonTitle="m299_missile_rack_dark"
+                            Quantity="4" />
+                </Loadout>
+            </Loadouts>
+        </SimContain.Container>
+        <SimContain.Container InstanceId="{6969A61D-334B-4461-88C8-8CA4570E79CE}">
+            <Descr>Ch-46</Descr>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <ContainerID>0</ContainerID>
+            <IsOnGround>True</IsOnGround>
+            <WorldPosition>N37° 14' 50.365251",W115° 48' 43.946556",+000005.00</WorldPosition>
+            <Orientation>0.000000,0.000000,67.787477</Orientation>
+            <ContainerTitle>Sikorsky UH-60M Battlehawk</ContainerTitle>
+            <IdentificationNumber>18</IdentificationNumber>
+            <AIType>Helicopter</AIType>
+            <EngineStarted>False</EngineStarted>
+            <AircraftAI>
+                <GroundCruiseSpeed>35.000000</GroundCruiseSpeed>
+                <GroundTurnSpeed>10.000000</GroundTurnSpeed>
+                <GroundTurnTime>3.500000</GroundTurnTime>
+                <YieldToUser>True</YieldToUser>
+                <CurrentWaypoint>0</CurrentWaypoint>
+            </AircraftAI>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="8x Hellfires">
+                    <Attachment
+                            StationIndex="0"
+                            ObjectTitle="AGM-114R_Hellfire"
+                            PylonTitle="m299_missile_rack_dark"
+                            Quantity="4" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AGM-114R_Hellfire"
+                            PylonTitle="m299_missile_rack_dark"
+                            Quantity="4" />
+                </Loadout>
+            </Loadouts>
+        </SimContain.Container>
+        <SimContain.Container InstanceId="{BC95267D-1157-433E-9F79-B1642100EA1F}">
+            <Descr>Airplane6</Descr>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <ContainerID>0</ContainerID>
+            <IsOnGround>True</IsOnGround>
+            <WorldPosition>N37° 14' 51.218583",W115° 48' 4.332561",+000006.00</WorldPosition>
+            <Orientation>2.000000,0.000000,111.999986</Orientation>
+            <ContainerTitle>F-16</ContainerTitle>
+            <IdentificationNumber>1020</IdentificationNumber>
+            <AIType>Airplane</AIType>
+            <AircraftAI>
+                <GroundCruiseSpeed>35.000000</GroundCruiseSpeed>
+                <GroundTurnSpeed>10.000000</GroundTurnSpeed>
+                <GroundTurnTime>3.500000</GroundTurnTime>
+                <YieldToUser>True</YieldToUser>
+                <CurrentWaypoint>0</CurrentWaypoint>
+            </AircraftAI>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="Weapon Loadout 0">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-9M_Sidewinder" Quantity="1" />
+                    <Attachment StationIndex="1" ObjectTitle="AIM-9M_Sidewinder" Quantity="1" />
+                </Loadout>
+            </Loadouts>
+        </SimContain.Container>
+        <SimContain.Container InstanceId="{78D0A97B-41CC-456D-BE03-4F8193272F3D}">
+            <Descr>Airplane7</Descr>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <ContainerID>0</ContainerID>
+            <IsOnGround>True</IsOnGround>
+            <WorldPosition>N37° 14' 51.773117",W115° 48' 2.759317",+000009.00</WorldPosition>
+            <Orientation>359.000000,0.000000,111.999999</Orientation>
+            <ContainerTitle>Lockheed Martin F-35C Lightning II</ContainerTitle>
+            <IdentificationNumber>1030</IdentificationNumber>
+            <AIType>Airplane</AIType>
+            <AircraftAI>
+                <GroundCruiseSpeed>35.000000</GroundCruiseSpeed>
+                <GroundTurnSpeed>10.000000</GroundTurnSpeed>
+                <GroundTurnTime>3.500000</GroundTurnTime>
+                <YieldToUser>True</YieldToUser>
+                <CurrentWaypoint>0</CurrentWaypoint>
+            </AircraftAI>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="Basic Weapons">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment StationIndex="1" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment StationIndex="2" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+            </Loadouts>
+        </SimContain.Container>
+        <SimContain.Container InstanceId="{A2CF0D6B-CC3B-45D2-8B7F-F574A41A06FE}">
+            <Descr>experimental 2</Descr>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <ContainerID>0</ContainerID>
+            <IsOnGround>True</IsOnGround>
+            <WorldPosition>N37° 14' 49.042148",W115° 48' 4.198894",+000006.20</WorldPosition>
+            <Orientation>0.000000,0.000000,29.999981</Orientation>
+            <ContainerTitle>Lockheed Martin F-16C - Blank Gray</ContainerTitle>
+            <IdentificationNumber>1440</IdentificationNumber>
+            <AIType>Airplane</AIType>
+            <EntityAffiliation>
+                <Foe>
+                    <ObjectReference InstanceId="{7EF0AE9A-8A62-4FA3-B8FD-386163A85EBB}">
+                    </ObjectReference>
+                </Foe>
+                <SelfAffiliation>
+                    <ObjectReference InstanceId="{E2E150E4-2606-4382-99D4-C33F01FF331A}">
+                    </ObjectReference>
+                </SelfAffiliation>
+            </EntityAffiliation>
+            <AircraftAI>
+                <GroundCruiseSpeed>35.000000</GroundCruiseSpeed>
+                <GroundTurnSpeed>10.000000</GroundTurnSpeed>
+                <GroundTurnTime>3.500000</GroundTurnTime>
+                <YieldToUser>True</YieldToUser>
+                <CurrentWaypoint>0</CurrentWaypoint>
+            </AircraftAI>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-120, 2x AIM-9, 2x AGM-88, 2x Wing Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="2"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment
+                            StationIndex="6"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimContain.Container>
+        <SimContain.Container InstanceId="{22D5F737-005C-4E38-8146-FA226CFF17E4}">
+            <Descr>Airplane13</Descr>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <ContainerID>0</ContainerID>
+            <IsOnGround>False</IsOnGround>
+            <WorldPosition>N37° 12' 14.439708",W115° 48' 47.890644",+019780.00</WorldPosition>
+            <Orientation>356.814055,0.000000,89.999935</Orientation>
+            <ContainerTitle>Commercial Airliner Paint2</ContainerTitle>
+            <IdentificationNumber>50000</IdentificationNumber>
+            <AIType>Airplane</AIType>
+            <CreateCamera>True</CreateCamera>
+            <AIBehaviorList>
+                <WingmanFormation>
+                    <BehaviorGUID>{CDF01CCC-B230-49C9-8AD2-28E548AFB358}</BehaviorGUID>
+                    <OffsetPosition>60.959999,60.959999,57.302399,0.000000</OffsetPosition>
+                    <ObjectReference InstanceId="{A2CF0D6B-CC3B-45D2-8B7F-F574A41A06FE}">
+                    </ObjectReference>
+                </WingmanFormation>
+            </AIBehaviorList>
+            <AircraftAI>
+                <GroundCruiseSpeed>35.000000</GroundCruiseSpeed>
+                <GroundTurnSpeed>10.000000</GroundTurnSpeed>
+                <GroundTurnTime>3.500000</GroundTurnTime>
+                <YieldToUser>False</YieldToUser>
+                <AssignedAltitude>10363.504883</AssignedAltitude>
+                <AssignedAirspeed>165.000000</AssignedAirspeed>
+                <CurrentWaypoint>0</CurrentWaypoint>
+            </AircraftAI>
+        </SimContain.Container>
+        <SimContain.Container InstanceId="{E1E508FB-8F53-41FC-AEA9-FFBAE158D7AF}">
+            <Descr>Enemy F16</Descr>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <ContainerID>0</ContainerID>
+            <IsOnGround>False</IsOnGround>
+            <WorldPosition>N37° 17' 37.448981",W115° 49' 48.335162",+022000.35</WorldPosition>
+            <Orientation>0.000000,0.000000,89.999959</Orientation>
+            <ContainerTitle>Lockheed Martin F-16C - Blank Gray</ContainerTitle>
+            <IdentificationNumber>9000</IdentificationNumber>
+            <AIType>Airplane</AIType>
+            <EntityAffiliation>
+                <Foe>
+                    <ObjectReference InstanceId="{E2E150E4-2606-4382-99D4-C33F01FF331A}">
+                    </ObjectReference>
+                </Foe>
+                <SelfAffiliation>
+                    <ObjectReference InstanceId="{7EF0AE9A-8A62-4FA3-B8FD-386163A85EBB}">
+                    </ObjectReference>
+                </SelfAffiliation>
+            </EntityAffiliation>
+            <AircraftAI>
+                <GroundCruiseSpeed>355.000000</GroundCruiseSpeed>
+                <GroundTurnSpeed>10.000000</GroundTurnSpeed>
+                <GroundTurnTime>3.500000</GroundTurnTime>
+                <YieldToUser>False</YieldToUser>
+                <AssignedAltitude>4572.000000</AssignedAltitude>
+                <AssignedAirspeed>312.000000</AssignedAirspeed>
+                <CurrentWaypoint>0</CurrentWaypoint>
+                <Pattern_Entry>Straight_In</Pattern_Entry>
+            </AircraftAI>
+            <AIBehaviorList>
+                <Attacker>
+                    <BehaviorGUID>{8DEB08FA-42B0-45C5-A46B-B4D182839EB0}</BehaviorGUID>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                    <FireRadiusMinFeet>1.000000</FireRadiusMinFeet>
+                    <FireRadiusMaxFeet>20000.000000</FireRadiusMaxFeet>
+                    <FireFOVDegrees>360.000000</FireFOVDegrees>
+                    <WeaponTitle>AIM-120_AMRAAM</WeaponTitle>
+                    <WeaponType>AAM</WeaponType>
+                    <AttackDelaySeconds>1.000000</AttackDelaySeconds>
+                    <GunBurstDurationSeconds>1.000000</GunBurstDurationSeconds>
+                </Attacker>
+                <SearchTrack>
+                    <BehaviorGUID>{FA167F29-F675-4A85-9123-CB3B46F3D01F}</BehaviorGUID>
+                    <SearchRadiusFeet>25000.000000</SearchRadiusFeet>
+                    <SearchFOVDegrees>360.000000</SearchFOVDegrees>
+                    <TrackRadiusFeet>2000.000000</TrackRadiusFeet>
+                    <TrackFOVDegrees>360.000000</TrackFOVDegrees>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                </SearchTrack>
+                <Pursue>
+                    <BehaviorGUID>{B24FBFF6-B485-41E0-A1C4-25B0197F6ED1}</BehaviorGUID>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                    <InvestigateRadiusFeet>4000.000000</InvestigateRadiusFeet>
+                    <StoppingDistanceFeet>500.000000</StoppingDistanceFeet>
+                    <MaxPursuitDurationSeconds>600.000000</MaxPursuitDurationSeconds>
+                    <InterceptGroundObjects>False</InterceptGroundObjects>
+                    <ObjectReference InstanceId="{A2CF0D6B-CC3B-45D2-8B7F-F574A41A06FE}">
+                    </ObjectReference>
+                </Pursue>
+                <CombatAirPatrol>
+                    <BehaviorGUID>{9B46AD87-41E3-4ED7-9FCD-B118F138CEBD}</BehaviorGUID>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                    <ObjectReference InstanceId="{A2CF0D6B-CC3B-45D2-8B7F-F574A41A06FE}">
+                    </ObjectReference>
+                </CombatAirPatrol>
+            </AIBehaviorList>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-120, 2x AIM-9, 2x AGM-88, 2x Wing Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="2"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment
+                            StationIndex="6"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimContain.Container>
+        <SimContain.Container InstanceId="{C1F8B67E-D5B9-4C85-9532-DCA6E07F3C9C}">
+            <Descr>Enemy F16 2</Descr>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <ContainerID>0</ContainerID>
+            <IsOnGround>False</IsOnGround>
+            <WorldPosition>N37° 17' 38.356022",W115° 49' 48.326713",+022000.35</WorldPosition>
+            <Orientation>0.000000,0.000000,89.999958</Orientation>
+            <ContainerTitle>Lockheed Martin F-16C - Blank Gray</ContainerTitle>
+            <IdentificationNumber>9000</IdentificationNumber>
+            <AIType>Airplane</AIType>
+            <EntityAffiliation>
+                <SelfAffiliation>
+                    <ObjectReference InstanceId="{7EF0AE9A-8A62-4FA3-B8FD-386163A85EBB}">
+                    </ObjectReference>
+                </SelfAffiliation>
+                <Foe>
+                    <ObjectReference InstanceId="{E2E150E4-2606-4382-99D4-C33F01FF331A}">
+                    </ObjectReference>
+                </Foe>
+            </EntityAffiliation>
+            <AircraftAI>
+                <GroundCruiseSpeed>355.000000</GroundCruiseSpeed>
+                <GroundTurnSpeed>10.000000</GroundTurnSpeed>
+                <GroundTurnTime>3.500000</GroundTurnTime>
+                <YieldToUser>False</YieldToUser>
+                <AssignedAltitude>4572.000000</AssignedAltitude>
+                <AssignedAirspeed>312.000000</AssignedAirspeed>
+                <CurrentWaypoint>0</CurrentWaypoint>
+                <Pattern_Entry>Straight_In</Pattern_Entry>
+            </AircraftAI>
+            <AIBehaviorList>
+                <Attacker>
+                    <BehaviorGUID>{8DEB08FA-42B0-45C5-A46B-B4D182839EB0}</BehaviorGUID>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                    <FireRadiusMinFeet>1.000000</FireRadiusMinFeet>
+                    <FireRadiusMaxFeet>20000.000000</FireRadiusMaxFeet>
+                    <FireFOVDegrees>360.000000</FireFOVDegrees>
+                    <WeaponTitle>AIM-120_AMRAAM</WeaponTitle>
+                    <WeaponType>AAM</WeaponType>
+                    <AttackDelaySeconds>1.000000</AttackDelaySeconds>
+                    <GunBurstDurationSeconds>10.000000</GunBurstDurationSeconds>
+                </Attacker>
+                <SearchTrack>
+                    <BehaviorGUID>{FA167F29-F675-4A85-9123-CB3B46F3D01F}</BehaviorGUID>
+                    <SearchRadiusFeet>25000.000000</SearchRadiusFeet>
+                    <SearchFOVDegrees>360.000000</SearchFOVDegrees>
+                    <TrackRadiusFeet>2000.000000</TrackRadiusFeet>
+                    <TrackFOVDegrees>360.000000</TrackFOVDegrees>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                </SearchTrack>
+                <Pursue>
+                    <BehaviorGUID>{7A842A04-D56D-4D73-8EC0-F4166AB08D9E}</BehaviorGUID>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                    <InvestigateRadiusFeet>4000.000000</InvestigateRadiusFeet>
+                    <StoppingDistanceFeet>500.000000</StoppingDistanceFeet>
+                    <MaxPursuitDurationSeconds>600.000000</MaxPursuitDurationSeconds>
+                    <InterceptGroundObjects>False</InterceptGroundObjects>
+                    <ObjectReference InstanceId="{A2CF0D6B-CC3B-45D2-8B7F-F574A41A06FE}">
+                    </ObjectReference>
+                </Pursue>
+                <CombatAirPatrol>
+                    <BehaviorGUID>{63171199-2970-4F9F-8101-6ADF249675CF}</BehaviorGUID>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                    <ObjectReference InstanceId="{A2CF0D6B-CC3B-45D2-8B7F-F574A41A06FE}">
+                    </ObjectReference>
+                </CombatAirPatrol>
+            </AIBehaviorList>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-120, 2x AIM-9, 2x AGM-88, 2x Wing Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="2"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment
+                            StationIndex="6"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimContain.Container>
+        <SimContain.Container InstanceId="{7A2E2601-8D85-4B31-892C-4D9217DD724E}">
+            <Descr>Enemy F16 3</Descr>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <ContainerID>0</ContainerID>
+            <IsOnGround>False</IsOnGround>
+            <WorldPosition>N37° 17' 39.263064",W115° 49' 48.318264",+022000.35</WorldPosition>
+            <Orientation>0.000000,0.000000,89.999959</Orientation>
+            <ContainerTitle>Lockheed Martin F-16C - Blank Gray</ContainerTitle>
+            <IdentificationNumber>9000</IdentificationNumber>
+            <AIType>Airplane</AIType>
+            <EntityAffiliation>
+                <SelfAffiliation>
+                    <ObjectReference InstanceId="{7EF0AE9A-8A62-4FA3-B8FD-386163A85EBB}">
+                    </ObjectReference>
+                </SelfAffiliation>
+                <Foe>
+                    <ObjectReference InstanceId="{E2E150E4-2606-4382-99D4-C33F01FF331A}">
+                    </ObjectReference>
+                </Foe>
+            </EntityAffiliation>
+            <AircraftAI>
+                <GroundCruiseSpeed>355.000000</GroundCruiseSpeed>
+                <GroundTurnSpeed>10.000000</GroundTurnSpeed>
+                <GroundTurnTime>3.500000</GroundTurnTime>
+                <YieldToUser>False</YieldToUser>
+                <AssignedAltitude>4572.000000</AssignedAltitude>
+                <AssignedAirspeed>312.000000</AssignedAirspeed>
+                <CurrentWaypoint>0</CurrentWaypoint>
+                <Pattern_Entry>Straight_In</Pattern_Entry>
+            </AircraftAI>
+            <AIBehaviorList>
+                <Attacker>
+                    <BehaviorGUID>{8DEB08FA-42B0-45C5-A46B-B4D182839EB0}</BehaviorGUID>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                    <FireRadiusMinFeet>1.000000</FireRadiusMinFeet>
+                    <FireRadiusMaxFeet>20000.000000</FireRadiusMaxFeet>
+                    <FireFOVDegrees>360.000000</FireFOVDegrees>
+                    <WeaponTitle>AIM-120_AMRAAM</WeaponTitle>
+                    <WeaponType>AAM</WeaponType>
+                    <AttackDelaySeconds>1.000000</AttackDelaySeconds>
+                    <GunBurstDurationSeconds>1.000000</GunBurstDurationSeconds>
+                </Attacker>
+                <SearchTrack>
+                    <BehaviorGUID>{FA167F29-F675-4A85-9123-CB3B46F3D01F}</BehaviorGUID>
+                    <SearchRadiusFeet>25000.000000</SearchRadiusFeet>
+                    <SearchFOVDegrees>360.000000</SearchFOVDegrees>
+                    <TrackRadiusFeet>2000.000000</TrackRadiusFeet>
+                    <TrackFOVDegrees>360.000000</TrackFOVDegrees>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                </SearchTrack>
+                <Pursue>
+                    <BehaviorGUID>{9ABE204A-F656-44D7-BBBB-E32D97D97253}</BehaviorGUID>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                    <InvestigateRadiusFeet>4000.000000</InvestigateRadiusFeet>
+                    <StoppingDistanceFeet>500.000000</StoppingDistanceFeet>
+                    <MaxPursuitDurationSeconds>600.000000</MaxPursuitDurationSeconds>
+                    <InterceptGroundObjects>False</InterceptGroundObjects>
+                    <ObjectReference InstanceId="{A2CF0D6B-CC3B-45D2-8B7F-F574A41A06FE}">
+                    </ObjectReference>
+                </Pursue>
+                <CombatAirPatrol>
+                    <BehaviorGUID>{0F8BEC15-64C5-4FEF-B9E3-35FC3446570E}</BehaviorGUID>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                    <ObjectReference InstanceId="{A2CF0D6B-CC3B-45D2-8B7F-F574A41A06FE}">
+                    </ObjectReference>
+                </CombatAirPatrol>
+            </AIBehaviorList>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-120, 2x AIM-9, 2x AGM-88, 2x Wing Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="2"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment
+                            StationIndex="6"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimContain.Container>
+        <SimContain.Container InstanceId="{4F9C17E4-C88D-4536-97B0-E76D0C32C696}">
+            <Descr>mitch</Descr>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <ContainerID>0</ContainerID>
+            <IsOnGround>False</IsOnGround>
+            <WorldPosition>N37° 21' 43.808231",W115° 59' 20.940079",+040000.00</WorldPosition>
+            <Orientation>2.826964,0.000000,89.999993</Orientation>
+            <ContainerTitle>Lockheed Martin F-16A - Blue Camo</ContainerTitle>
+            <IdentificationNumber>10000</IdentificationNumber>
+            <AIType>Airplane</AIType>
+            <AIBehaviorList>
+                <Attacker>
+                    <BehaviorGUID>{E7C3FBB7-7FFF-4625-8BF5-E2F7118426B9}</BehaviorGUID>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                    <FireRadiusMinFeet>1.000000</FireRadiusMinFeet>
+                    <FireRadiusMaxFeet>50000.000000</FireRadiusMaxFeet>
+                    <FireFOVDegrees>360.000000</FireFOVDegrees>
+                    <WeaponTitle>AIM-120_AMRAAM</WeaponTitle>
+                    <WeaponType>AAM</WeaponType>
+                    <AttackDelaySeconds>1.000000</AttackDelaySeconds>
+                    <GunBurstDurationSeconds>10.000000</GunBurstDurationSeconds>
+                </Attacker>
+                <SearchTrack>
+                    <Descr>search1</Descr>
+                    <BehaviorGUID>{9FA27982-E67B-482C-AA65-18CB18FE8FF8}</BehaviorGUID>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                    <SearchRadiusFeet>50000.000000</SearchRadiusFeet>
+                    <SearchFOVDegrees>360.000000</SearchFOVDegrees>
+                    <TrackRadiusFeet>50000.000000</TrackRadiusFeet>
+                    <TrackFOVDegrees>360.000000</TrackFOVDegrees>
+                </SearchTrack>
+                <Pursue>
+                    <BehaviorGUID>{FAB28DDC-AEA0-4108-9458-30E23384229B}</BehaviorGUID>
+                    <BehaviorStartTime>1.000000</BehaviorStartTime>
+                    <InvestigateRadiusFeet>52000.000000</InvestigateRadiusFeet>
+                    <StoppingDistanceFeet>10.000000</StoppingDistanceFeet>
+                    <MaxPursuitDurationSeconds>6000.000000</MaxPursuitDurationSeconds>
+                    <InterceptGroundObjects>False</InterceptGroundObjects>
+                    <ObjectReference InstanceId="{A2CF0D6B-CC3B-45D2-8B7F-F574A41A06FE}">
+                    </ObjectReference>
+                </Pursue>
+            </AIBehaviorList>
+            <AircraftAI>
+                <GroundCruiseSpeed>35.000000</GroundCruiseSpeed>
+                <GroundTurnSpeed>10.000000</GroundTurnSpeed>
+                <GroundTurnTime>3.500000</GroundTurnTime>
+                <YieldToUser>True</YieldToUser>
+                <AssignedAltitude>7924.799805</AssignedAltitude>
+                <AssignedAirspeed>350.000000</AssignedAirspeed>
+                <CurrentWaypoint>0</CurrentWaypoint>
+            </AircraftAI>
+            <EntityAffiliation>
+                <Foe>
+                    <ObjectReference InstanceId="{E2E150E4-2606-4382-99D4-C33F01FF331A}">
+                    </ObjectReference>
+                </Foe>
+                <SelfAffiliation>
+                    <ObjectReference InstanceId="{7EF0AE9A-8A62-4FA3-B8FD-386163A85EBB}">
+                    </ObjectReference>
+                </SelfAffiliation>
+            </EntityAffiliation>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-9, 2x AIM-120, Center Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="4" ObjectTitle="AIM-9M_Sidewinder" PylonTitle="drop_tank_center" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimContain.Container>
+        <SimMission.Player InstanceId="{D50C7E4B-5D08-4A60-98FB-04BFB8CB5038}">
+            <Descr>Player 1</Descr>
+            <Name>player 1</Name>
+            <WorldPosition>N37° 14' 53.619474",W115° 48' 1.821757",+000000.00</WorldPosition>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <Orientation>0.000000,0.000000,160.000000</Orientation>
+            <IsOnGround>True</IsOnGround>
+            <ContainerTitle>Lockheed Martin F-16C - Blank Gray</ContainerTitle>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-120, 2x AIM-9, 2x AGM-88, 2x Wing Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="2"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment
+                            StationIndex="6"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimMission.Player>
+        <SimMission.Player InstanceId="{BDCAFE3D-1755-43C5-B116-35A4788239DA}">
+            <Descr>Player 2</Descr>
+            <Name>player 2</Name>
+            <WorldPosition>N37° 14' 53.992893",W115° 48' 0.644109",+000000.00</WorldPosition>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <Orientation>0.000000,0.000000,160.000000</Orientation>
+            <IsOnGround>True</IsOnGround>
+            <ContainerTitle>Lockheed Martin F-16C - Blank Gray</ContainerTitle>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-120, 2x AIM-9, 2x AGM-88, 2x Wing Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="2"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment
+                            StationIndex="6"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimMission.Player>
+        <SimMissionUI.ScenarioMetadata InstanceId="{B2920202-D33E-493F-96F7-ADB3F5E08148}">
+            <Descr>ScenarioMetadata6</Descr>
+            <IsMultiplayer>True</IsMultiplayer>
+        </SimMissionUI.ScenarioMetadata>
+        <SimMission.Player InstanceId="{40179B05-D943-4464-89B6-9EEA676CD1AF}">
+            <Descr>Player 3</Descr>
+            <Name>Player 3</Name>
+            <WorldPosition>N37° 14' 54.844060",W115° 48' 2.287742",+000000.00</WorldPosition>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <Orientation>0.000000,0.000000,160.000000</Orientation>
+            <IsOnGround>True</IsOnGround>
+            <ContainerTitle>Lockheed Martin F-16C - USAF Gray</ContainerTitle>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-120, 2x AIM-9, 2x Wing Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="2" ObjectTitle="GBU-12_Paveway" PylonTitle="pylon_heavy_underwing" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="6" ObjectTitle="GBU-12_Paveway" PylonTitle="pylon_heavy_underwing" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimMission.Player>
+        <SimMission.Player InstanceId="{C53D415D-813A-4C6F-B464-321395BF1227}">
+            <Descr>Player 4</Descr>
+            <Name>Player 4</Name>
+            <WorldPosition>N37° 14' 55.238009",W115° 48' 0.942507",+000000.00</WorldPosition>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <Orientation>0.000000,0.000000,160.000000</Orientation>
+            <IsOnGround>True</IsOnGround>
+            <ContainerTitle>Lockheed Martin F-16C - USAF Gray</ContainerTitle>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-120, 2x AIM-9, 2x Wing Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="2" ObjectTitle="GBU-12_Paveway" PylonTitle="pylon_heavy_underwing" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="6" ObjectTitle="GBU-12_Paveway" PylonTitle="pylon_heavy_underwing" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimMission.Player>
+        <SimMission.Player InstanceId="{CD6C2C74-9704-45CA-B7F8-063EA13EBCCE}">
+            <Descr>Player 7</Descr>
+            <Name>Player 7</Name>
+            <WorldPosition>N37° 14' 57.216072",W115° 48' 3.244193",+000000.00</WorldPosition>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <Orientation>0.000000,0.000000,160.000000</Orientation>
+            <IsOnGround>True</IsOnGround>
+            <ContainerTitle>Lockheed Martin F-16C - USAF Gray</ContainerTitle>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-120, 2x AIM-9, 2x Wing Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="2" ObjectTitle="GBU-12_Paveway" PylonTitle="pylon_heavy_underwing" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="6" ObjectTitle="GBU-12_Paveway" PylonTitle="pylon_heavy_underwing" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimMission.Player>
+        <SimMission.Player InstanceId="{C1BF22E9-C068-4A65-BBE9-C26513383625}">
+            <Descr>Player 8</Descr>
+            <Name>Player 8</Name>
+            <WorldPosition>N37° 14' 57.610020",W115° 48' 1.898957",+000000.00</WorldPosition>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <Orientation>0.000000,0.000000,160.000000</Orientation>
+            <IsOnGround>True</IsOnGround>
+            <ContainerTitle>Lockheed Martin F-16C - USAF Gray</ContainerTitle>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-120, 2x AIM-9, 2x Wing Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="2" ObjectTitle="GBU-12_Paveway" PylonTitle="pylon_heavy_underwing" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="6" ObjectTitle="GBU-12_Paveway" PylonTitle="pylon_heavy_underwing" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimMission.Player>
+        <SimMission.Player InstanceId="{C328389D-C86F-4729-A4AF-BEF5976C34C8}">
+            <Descr>Player 5</Descr>
+            <Name>player 5</Name>
+            <WorldPosition>N37° 14' 55.991486",W115° 48' 2.778207",+000000.00</WorldPosition>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <Orientation>0.000000,0.000000,160.000000</Orientation>
+            <IsOnGround>True</IsOnGround>
+            <ContainerTitle>Lockheed Martin F-16C - Blank Gray</ContainerTitle>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-120, 2x AIM-9, 2x AGM-88, 2x Wing Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="2"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment
+                            StationIndex="6"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimMission.Player>
+        <SimMission.Player InstanceId="{B23DBC17-7393-4891-803A-048867F039CB}">
+            <Descr>Player 6</Descr>
+            <Name>player 6</Name>
+            <WorldPosition>N37° 14' 56.364905",W115° 48' 1.600559",+000000.00</WorldPosition>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <Orientation>0.000000,0.000000,160.000000</Orientation>
+            <IsOnGround>True</IsOnGround>
+            <ContainerTitle>Lockheed Martin F-16C - Blank Gray</ContainerTitle>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-120, 2x AIM-9, 2x AGM-88, 2x Wing Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="2"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment
+                            StationIndex="6"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimMission.Player>
+        <SimMission.Player InstanceId="{8CA64614-921A-4CA8-8111-5FB18F4D6D71}">
+            <Descr>Player 9</Descr>
+            <Name>Player 9</Name>
+            <WorldPosition>N52° 2' 42.077039",W80° 9' 17.818234",+000068.90</WorldPosition>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <Orientation>0.000000,0.000000,334.000000</Orientation>
+            <IsOnGround>False</IsOnGround>
+            <ContainerTitle>Lockheed Martin F-16C - Blank Gray</ContainerTitle>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-120, 2x AIM-9, 2x AGM-88, 2x Wing Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="2"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment
+                            StationIndex="6"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimMission.Player>
+        <SimMission.Player InstanceId="{422D540D-BBC0-4669-8E7A-941EBFD4F7B5}">
+            <Descr>player 10</Descr>
+            <Name>player 10</Name>
+            <WorldPosition>N52° 2' 43.705486",W80° 9' 16.925785",+000068.90</WorldPosition>
+            <AltitudeIsAGL>True</AltitudeIsAGL>
+            <Orientation>0.000000,0.000000,228.500000</Orientation>
+            <IsOnGround>False</IsOnGround>
+            <ContainerTitle>Lockheed Martin F-16C - Blank Gray</ContainerTitle>
+            <Loadouts>
+                <Loadout LoadoutType="WEAPON" LoadoutTitle="2x AIM-120, 2x AIM-9, 2x AGM-88, 2x Wing Tank">
+                    <Attachment StationIndex="0" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                    <Attachment
+                            StationIndex="1"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="2"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="3" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment StationIndex="5" ObjectTitle="AIM-120_AMRAAM" PylonTitle="drop_tank_wing" />
+                    <Attachment
+                            StationIndex="6"
+                            ObjectTitle="AGM-88_HARM"
+                            PylonTitle="pylon_heavy_underwing"
+                            Quantity="1" />
+                    <Attachment
+                            StationIndex="7"
+                            ObjectTitle="AIM-9M_Sidewinder"
+                            PylonTitle="pylon_medium_underwing"
+                            Quantity="1" />
+                    <Attachment StationIndex="8" ObjectTitle="AIM-120_AMRAAM" Quantity="1" />
+                </Loadout>
+                <Loadout LoadoutType="GUN" LoadoutTitle="Right Internal Mount">
+                    <Attachment StationIndex="9" ObjectTitle="M-61_Vulcan" Quantity="511" />
+                </Loadout>
+                <Loadout LoadoutType="COUNTERMEASURE" LoadoutTitle="Basic Countermeasures">
+                    <Attachment StationIndex="10" ObjectTitle="Defensive Flare" Quantity="15" />
+                    <Attachment StationIndex="11" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="12" ObjectTitle="Chaff" Quantity="15" />
+                    <Attachment StationIndex="13" ObjectTitle="Defensive Flare" Quantity="15" />
+                </Loadout>
+            </Loadouts>
+        </SimMission.Player>
+        <SimMission.EntityIdentification InstanceId="{E2E150E4-2606-4382-99D4-C33F01FF331A}">
+            <Descr>good</Descr>
+            <GroupID>1</GroupID>
+        </SimMission.EntityIdentification>
+        <SimMission.EntityIdentification InstanceId="{7EF0AE9A-8A62-4FA3-B8FD-386163A85EBB}">
+            <Descr>bad</Descr>
+            <GroupID>2</GroupID>
+        </SimMission.EntityIdentification>
+    </WorldBase.Flight>
+    <MissionBuilder.MissionBuilder>
+    </MissionBuilder.MissionBuilder>
+    <WorldBase.AreasOfInterest>
+    </WorldBase.AreasOfInterest>
+    <WorldBase.Waypoints>
+    </WorldBase.Waypoints>
+</SimBase.Document>
